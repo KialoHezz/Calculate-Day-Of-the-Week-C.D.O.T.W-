@@ -7,13 +7,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,600;1,600&family=Roboto+Serif&display=swap" rel="stylesheet">
 <title>Landing page</title>
-<link rel="stylesheet" href="mains.css">
+<link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
         <div class="container-0">
             <div class="logo">
-                <img src="images/cal-logo.jpg" alt="logo">
+                <img class="img-logo" src="images/cal-logo.jpg" alt="logo">
             </div>
             <div class="nav">
                 <ul>
@@ -33,18 +33,22 @@
             </p>
         </div>
         <div class="form">
-            <label for="Username">Username</label>
-            <input type="text" name="username" required="required" value="HezzyKialo"><br>
-            <label for="Enter DD/MM/YY">Enter DD/MM/YY</label>
-            <input type="date" id="start" name="trip-start" value="2018-07-22" min="1938-01-01" max="2022-12-31" required="required"><br>
+            <label class="user" for="Username">Username</label>
+            <input class="user" type="text" name="username" required="required" value="HezzyKialo"><br>
+            <label class="enter" for="Enter DD/MM/YY">Enter DD/MM/YY</label>
+            <input class="enter" type="date" id="start" name="trip-start" value="2018-07-22" min="1938-01-01" max="2022-12-31" required="required"><br>
             <label for="Gender">Select Gender:</label>
-            <input type="radio" name="male">male
-            <input type="radio" name="female">female
-            <input type="radio" name="othe">other
+            <input type="radio" name="Gender">male
+            <input type="radio" name="Gender">female
+            <input type="radio" name="Gender" checked="checked">other
         </div>
         <div class="img-calculator">
             <img src="images/caculator.webp" alt="calculator">
         </div>
+    </div>
+    <div class="foot">
+        <h3 class="foot-title">Don't Worry Because Am there for You</h3>
+        <p class="foo-info-para">copyright and Licence && 2022</p>
     </div>
 </body>  
 </html> 
