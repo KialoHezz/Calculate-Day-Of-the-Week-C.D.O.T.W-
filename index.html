@@ -10,25 +10,41 @@
 <link rel="stylesheet" href="mains.css">
 </head>
 <body>
-<header>
-<div class="container-0">
-<div class="logo">
-<img class="img-logo" src="image/logo-cal.jpg" alt="LOGO">
-</div>
-<div class="nav-bar">
-<ul>
-<li><a class="active" href="#">Home</a></li>
-<li><a href="#">Contact_us</a></li>
-<li><a href="#">About_us</a></li>
-<li><a href="#">Service</a></li>
-</ul>
-</div>
-</div>
-</header>
-<div class="container">
-<div class="container-ifo">
-<p class="para">Here it's Where you<br>
-enter your <em><b><i>Date,month and year</i></b></em>.<br>
-then Us Determine the <strong><i>Day of week</i></strong> You was born;I wait just get stated
-</p>
-</div>
+    <header>
+        <div class="container-0">
+            <div class="logo">
+                <img src="images/cal-logo.jpg" alt="logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About_us</a></li>
+                    <li><a href="#">Contact_Us</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="container-info">
+            <p class="para">Here it's Where you<br>
+                enter your <em><b><i>Date,month and year</i></b></em>.<br>
+                then Us Determine the <strong><i>Day of week</i></strong> You was born;I wait just get stated
+            </p>
+        </div>
+        <div class="form">
+            <label for="Username">Username</label>
+            <input type="text" name="username" required="required" value="HezzyKialo"><br>
+            <label for="Enter DD/MM/YY">Enter DD/MM/YY</label>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="1938-01-01" max="2022-12-31" required="required"><br>
+            <label for="Gender">Select Gender:</label>
+            <input type="radio" name="male">male
+            <input type="radio" name="female">female
+            <input type="radio" name="othe">other
+        </div>
+        <div class="img-calculator">
+            <img src="images/caculator.webp" alt="calculator">
+        </div>
+    </div>
+</body>  
+</html> 
