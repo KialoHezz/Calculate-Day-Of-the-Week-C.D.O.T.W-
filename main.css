@@ -23,7 +23,7 @@ body{
     justify-content: space-between;
     margin: 2rem 3rem;
     position: relative;
-    background-color: var(--nav-color);
+    background-color: var(--g-color);
 }
 
 .logo{
@@ -87,6 +87,7 @@ p .para{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
+    padding: 10rem;
 }
 
 .form{
@@ -109,8 +110,33 @@ p .para{
 
 }
 
+.img-calculator{
+    padding: 5rem;
+    /* width: 50%; */
+}
 
+.img-c{
+    border-radius: 2rem;
+}
 
+/*footer*/
+
+.foot{
+    display: block;
+    /* align-items: center; */
+}
+
+.foot-title{
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.foo-info-para{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
 
 
 
