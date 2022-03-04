@@ -91,14 +91,21 @@ p .para{
 
 .form{
     background-color: var(--form-color);
-    height: 50vh;
+    /* height: 50vh; */
     text-align: center;
     /* width: 50rem; */
     position: relative;
-    /* margin: 2rem auto; */
+    margin: 2rem auto;
     text-align: center;
     padding: 10rem;
     border-radius: 4rem;
+    justify-content: space-between;
+    line-height: 25px;
+    text-transform: uppercase;
+
+}
+
+.user{
 
 }
 
