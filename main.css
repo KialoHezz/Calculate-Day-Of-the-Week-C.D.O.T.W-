@@ -3,6 +3,7 @@
 
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +20,7 @@
 
 body{
     background-color: var(--background-color);
+    /* font-family: 'Jost', sans-serif; */
 }
 
 /*header*/
@@ -84,11 +86,16 @@ a:hover{
 .container-info{
     /* width: 50%; */
     justify-content: space-between;
-    margin: auto 3rem;
+    /* margin: auto 3rem; */
     text-align: center
 }
 
-p .para{
+p{
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+
+.para{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -103,7 +110,7 @@ p .para{
     position: relative;
     margin: 2rem auto;
     text-align: center;
-    padding: 10rem;
+    padding: 8rem;
     border-radius: 4rem;
     justify-content: space-between;
     line-height: 25px;
@@ -129,6 +136,10 @@ p .para{
 .foot{
     display: block;
     /* align-items: center; */
+    background-color: var(--g-color);
+    height: 10vh;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .foot-title{
