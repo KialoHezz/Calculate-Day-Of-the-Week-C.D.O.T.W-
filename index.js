@@ -12,10 +12,20 @@ console.log(gender);
 const fillinform = document.querySelector("fillin");
 console.log(fillinform);
 
+let genderM = fillinform.gender_male.value;
+let genderF = fillinform.gender_female.value;
+
 //validate radio buttons
-if((document.fillin.gender[0].checked == false) && (document.fillin.gender[0].checked == false)){
-    alert("Please choose your Gender either Male or Female");
+
+if(genderM .checked == false && genderF.checked == false){
+    console.log("Please choose your Gender either Male or Female");
 }
+
+
+
+
+
+
 
 
 // //add eventlistener to form
