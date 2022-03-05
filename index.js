@@ -18,13 +18,12 @@ document.getElementById("submit").addEventListener("submit" validateUserInfo =>{
      console.log(dayOfTheWeek[day]);
 })
 
-function validateUserInfo(event){
-    //to avoid default refresh
-    event.preventDefault();
+
+// function validateUserInfo(event){
+//     //to avoid default refresh
+//     event.preventDefault();
    
-}
-
-
+// }
 
 
 //select gender either male or female from form
