@@ -14,7 +14,7 @@ required : To avoid repeting your self and Be keen as you filled in
 
 
 # BDD
-Have a form to fill in all credetial required.
+Have a form to fill in all credetial required.Choose DD/MM/YY and either between male or female
 
 When you submit then back-end runs verification of what you have been required in fill if its correct.
 
@@ -30,4 +30,4 @@ Email : hezzykialo.official.ke@gmail.com
 Phone : +254703701651
 
 # Licence && Copyright info:
-hezzykialo was licenced on 2019 and all rights where protected.
+Hezzykialo was licenced on 2019 and all rights where protected.
