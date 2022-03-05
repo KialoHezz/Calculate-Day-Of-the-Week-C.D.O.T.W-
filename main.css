@@ -122,6 +122,16 @@ p{
 
 }
 
+.submit{
+    cursor: pointer;
+    background-color: var(--links-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: var(--form-color);
+    /* font-family: 'jost' sans-serif;
+    font-weight: bold; */
+}
+
 .img-calculator{
     padding: 5rem;
     /* width: 50%; */
