@@ -11,6 +11,9 @@ Please ensure you enter the correct credential
 required : To avoid repeting your self and Be keen as you filled in
 
 # Set--Up Instruction
+Clone this repository to a location in your file system. https://github.com/hezron-ngoma-hezzykialo/Calculate-Day-Of-the-Week-C.D.O.T.W-
+Open terminal command line then navigate to the root folder of the application. cd secon-project
+Open index.html on your Browser.
 
 
 # BDD
