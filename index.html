@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Landing page</title>
-<link rel="stylesheet" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <header>
-        <div class="container-0">
-            <div class="logo">
-                <img class="img-logo" src="images/cal-logo.jpg" alt="logo">
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About_us</a></li>
-                    <li><a href="#">Contact_Us</a></li>
-                    <li><a href="#">Service</a></li>
-                </ul>
-            </div>
+      <div class="container-0">
+        <div class="logo">
+          <img class="img-logo" src="images/cal-logo.jpg" alt="logo" />
         </div>
+        <div class="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About_us</a></li>
+            <li><a href="#">Contact_Us</a></li>
+            <li><a href="#">Service</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <div class="main-container">
-        <div class="container-info">
-            <p class="para">Here it's Where you
-                enter your <em><b><i>Date,month and year</i></b></em>.
-                then Us Determine the <strong><i>Day of week</i></strong> You was born;Just get stated
-            </p>
-        </div>
-        <div class="form">
-            <form id="fillin">
-                <label class="enter" for="Enter DD/MM/YY">Enter DD/MM/YY</label>
-                <input id="date" type="date" name="date" value="1996-07-22" min="1938-01-01" required="required"><br><br><br>
-                <label for="Gender">Select Gender:</label><br><br>
-                <input type="radio" name="Gender" id="genderM" value="male">male
-                <input type="radio" name="Gender" id="genderF" value="female">female<br><br>
-                <!-- <input type="radio" name="Gender" checked="checked">other<br><br> -->
-                <button id="submit">Submit</button>
-            </form>
-        </div>
-        <div class="img-calculator">
-            <img class="img-c" src="images/caculator.webp" alt="calculator">
-        </div>
+      <div class="container-info">
+        <p class="para">
+          Here it's Where you enter your
+          <em
+            ><b><i>Date,month and year</i></b></em
+          >. then Us Determine the <strong><i>Day of week</i></strong> You was
+          born;Just get stated
+        </p>
+      </div>
+      <div class="form">
+        <form id="fillin">
+          <label class="enter" for="Enter DD/MM/YY">Enter DD/MM/YY</label>
+          <input
+            id="date"
+            type="date"
+            name="date"
+            value="1996-07-22"
+            min="1938-01-01"
+            required="required"
+          /><br /><br /><br />
+          <label for="Gender">Select Gender:</label><br /><br />
+          <input type="radio" name="Gender" id="genderM" value="male" />male
+          <input
+            type="radio"
+            name="Gender"
+            id="genderF"
+            value="female"
+          />female<br /><br />
+          <button id="submit">Submit</button>
+        </form>
+      </div>
+      <div class="img-calculator">
+        <img class="img-c" src="images/caculator.webp" alt="calculator" />
+      </div>
     </div>
+    <p class="output"></p>
     <div class="foot">
-        <p class="output"></p>
-        <h3 class="foot-title">Don't Worry Because Am there To Calculate</h3>
-        <p class="foo-info-para">copyright and Licence && 2022</p>
+      <h3 class="foot-title">Don't Worry Because Am there To Calculate</h3>
+      <p class="foo-info-para">copyright and Licence && 2022</p>
     </div>
-</body>
-<script src="index.js"></script>
-</html> 
+  </body>
+  <script src="index.js"></script>
+</html>
