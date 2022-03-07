@@ -35,56 +35,25 @@ const akanNames = {
 const fillinform = document.querySelector("#fillin");
 
 let gender_female = document.getElementById("genderF");
-console.log(gender_female);
 let gender_male = document.getElementById("genderM");
-console.log(gender_male);
-
+//event listener
 fillinform.addEventListener("submit", validateInfo);
-
+//function of submit button
 function validateInfo(submit) {
   submit.preventDefault();
   let userDate = document.getElementById("date").value;
   let gender = document.querySelector("input[name='Gender']:checked");
   console.log(userDate, gender.value);
-
   let dateEntered = new Date(userDate);
-  //To ge the day
   const day = dateEntered.getDay();
-  const dayOfTheWeek = daysOfTheWeek[day]
-  const akanName = akanNames[gender.value][dayOfTheWeek]
-  console.log(akanName, dayOfTheWeek)
-  // return(dayOfTheWeek[day]);
-  outputToUser(akanName,dayOfTheWeek);
+  const dayOfTheWeek = daysOfTheWeek[day];
+  const akanName = akanNames[gender.value][dayOfTheWeek];
+  console.log(akanName, dayOfTheWeek);
+  outputToUser(akanName, dayOfTheWeek);
+  chose(male, female);
 }
 
+//Its function used to display information at front-end
 function outputToUser(akanName, day) {
   document.querySelector(".output").innerText = "Your akanName is: " + akanName;
 }
-
-function chose(male, female) {
-  male = fillinform.gender_male.value;
-  female = fillinform.gender_female.value;
-  //validate radio buttons
-  if (male.checked == false && female.checked == false) {
-    return "Please choose your Gender either Male or Female";
-  }
-}
-// chose();
-
-//i have commentted this  two function(correctDate and correctMonth) because i have thought they dont have meaning ;already i have provide calender therefore user will select
-
-// //function to valid date
-// function correctDate(date){
-//     if(date <= 0 && date > 31){
-//         return ("Invalid date");
-//     }
-//     return ("Valid date");
-// }
-
-// //function to valid month
-// function correctMonth(month){
-//     if(month <= 0 && month > 12){
-//         return ("Invalid month");
-//     }
-//     return ("Valid month");
-// }

@@ -1,6 +1,7 @@
 /*importing google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,600;1,600&family=Kaushan+Script&family=League+Gothic&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Roboto+Serif&family=Smooch+Sans:wght@100;200;300;400;500;600;900&display=swap");
 
+/*Setting to avoid default set of a broswer*/
 * {
   padding: 0;
   margin: 0;
@@ -20,7 +21,6 @@ body {
 }
 
 /*header*/
-
 .container-0 {
   display: flex;
   justify-content: space-between;
@@ -130,8 +130,8 @@ p {
   color: var(--form-color);
   border-radius: 2rem;
 }
-/*footer*/
 
+/*footer*/
 .foot {
   display: block;
   background-color: var(--g-color);
